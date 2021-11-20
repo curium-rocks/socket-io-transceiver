@@ -1,6 +1,9 @@
 name: Socket.IO Transceiver CI
 on:
   push:
+    branches:
+      - main
+      - development
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
