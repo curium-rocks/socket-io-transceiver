@@ -57,5 +57,9 @@
   "bugs": {
     "url": "https://github.com/curium-rocks/socket-io-transceiver/issues"
   },
-  "homepage": "https://github.com/curium-rocks/socket-io-transceiver#readme"
+  "homepage": "https://github.com/curium-rocks/socket-io-transceiver#readme",
+  "dependencies": {
+    "socket.io": "^4.4.0",
+    "socket.io-msgpack-parser": "^3.0.1"
+  }
 }
